@@ -1,0 +1,52 @@
+.ul1{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.card-group3{
+    width:70%;
+    height:80%;
+   display: inline-flex;
+   justify-content: center;
+margin: 13%;
+    gap: 40px;
+    margin-top: 0%;
+    border-radius:20px;
+    border: none;
+   
+}
+.episode{
+    text-align:center;
+    color:rgb(240, 240, 240);
+     bottom: -76px;
+    position: absolute;
+    margin: 10%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 200px;
+    
+    }
+    #bttn{
+        display: inline-flex;
+padding: 15px 40px 12px 40px;
+justify-content: center;
+align-items: flex-end;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid var(--Shade-500, #505050);
+margin-bottom: 31px;
+    }
+    #anty2{
+        width: 212px;
+height: 212px;
+flex-shrink: 0;
+margin-bottom: -92px;
+border-radius: 20px;
+    }
+    .hh4{
+        margin-top: 131px;
+    }
