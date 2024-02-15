@@ -1,0 +1,196 @@
+.homeimage{
+    width:100%;
+   height: 552px;
+   border-radius:10px;
+   margin:2%;
+   
+   }
+   
+   .h{
+       text-align: center;
+       color: rgb(240, 240, 240);
+       font-size: 44px;
+       font-weight: bold;
+       bottom: 153px;
+       position: absolute;
+       margin-left: 10%;
+     
+   }
+   
+   .trans{
+       text-align: center;
+       color: rgb(240, 240, 240);
+       font-size: 44px;
+       font-weight: bold;
+       bottom: 112px;
+       position: absolute;
+       margin-left: 10%;
+   
+   }
+   
+   .h1{
+    bottom: 72px;
+      position:absolute;
+      margin:5%;
+      height:60px;
+      width:60px;
+      
+   }
+   
+   .container{
+       
+       font-size: 12px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: normal;
+       background: var(--Grad-500, linear-gradient(180deg, rgba(216, 213, 227, 0.00) 0%, #f2ecf2 100%));
+   
+   }
+   
+   
+   .txt{
+      margin:2%;
+   }
+   
+   .txt1{
+       margin:3%;
+    }
+   
+   
+   .para{
+       margin:1%;
+     
+   }
+
+   .Newsletter{
+       display: inline-flex;
+       padding:2%;
+       gap:10px;
+   }
+   
+   .container-fluid{
+    display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+   font-size:70%;
+   }
+   
+   .card-group1{
+       width:70%;
+       height:80%;
+      display: inline-flex;
+      justify-content: center;
+   margin: 13%;
+       gap: 40px;
+       margin-top: 1px;
+      border-radius:20px;
+     
+    
+   }
+   
+   
+   .card-group2{
+       width:70%;
+       height:80%;
+      display: inline-flex;
+      justify-content: center;
+   margin: 13%;
+       gap: 40px;
+       margin-top: 0px;
+       border-radius:20px;
+       border: none;
+      
+   }
+   
+   .card-group3{
+       width:70%;
+       height:80%;
+      display: inline-flex;
+      justify-content: center;
+   margin: 13%;
+       gap: 40px;
+       margin-top: 0%;
+       border-radius:20px;
+       border: none;
+      
+   }
+   
+   
+   .episode{
+       text-align:left;
+       color:rgb(240, 240, 240);
+       font-size: 33px;
+       font-weight:600;
+       bottom: 92px;
+       position: absolute;
+       margin-left: 8%;
+      line-height: normal;  
+   }
+   
+   
+   
+   @media screen and (max-width:600px){
+       .homeimage{
+           width:92%;
+       }
+   }
+   
+   
+   
+   @media screen and (max-width:600px)
+   {
+       .h1{
+        bottom: 124px;
+           margin-left: 15px;
+       }
+   }
+   
+   
+   
+   @media screen and (max-width:600px)
+   {
+       .h{
+        bottom: 146px;
+           margin-left: 84px;
+           font-size: 37px;
+       }
+   }
+   
+   @media screen and (max-width:600px)
+   {
+       .trans{
+        bottom: 111px;
+           margin-left: 84px;
+           font-size: 37px;
+       }
+   }
+   
+   @media screen and (max-width:600px){
+       .card-group1{
+           display: flex;
+       flex-direction: column;
+       }
+   }
+   
+   @media screen and (max-width:600px){
+       .card-group2{
+           display:none;
+       }
+   }
+   
+   
+   @media screen and (max-width:600px){
+       .card-group3{
+           display:none;
+       }
+   }
+   
+   @media screen and (max-width:600px){
+       .container-fluid{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           gap: 20px;
+       }
+   }

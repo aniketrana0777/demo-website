@@ -1,0 +1,149 @@
+.ul1{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.card-group3{
+    width:70%;
+    height:80%;
+   display: inline-flex;
+   justify-content: center;
+margin: 13%;
+    gap: 40px;
+    margin-top: 0%;
+    border-radius:20px;
+    border: none;
+   
+}
+.aunty-two {
+    position: relative;
+    top: -90px;
+}
+.episode{
+    text-align:center;
+    color:rgb(240, 240, 240);
+     bottom: -76px;
+    position: absolute;
+    margin: 10%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 200px;
+    
+    }
+    #bttn{
+        display: inline-flex;
+padding: 15px 40px 12px 40px;
+justify-content: center;
+align-items: flex-end;
+gap: 10px;
+margin-left: 674px;
+border-radius: 8px;
+border: 1px solid var(--Shade-500, #505050);
+margin-bottom: 31px;
+margin-top: -82px;
+    }
+    #anty2{
+        width: 212px;
+        height: 212px;
+        margin-left: 671px;
+        flex-shrink: 0;
+        margin-bottom: -92px;
+        border-radius: 20px;
+
+    }
+    .hh4{
+        margin-top: 131px;
+    }
+
+
+    .mypodcast{
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-left: 734px;
+        color: var(--bs-heading-color);   
+    }
+
+    .stories{
+        margin-left: 623px;
+    }
+    #pa1{
+       
+            font-family: Kumbh Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            margin-left: 6px;
+            display: flex;
+        
+    }
+
+#pa2{
+    
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 6px;
+    display: flex;
+}
+#pa3{
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 6px;
+    display: flex;
+}
+#pa4{
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 6px;
+    display: flex;
+}
+
+    @media only screen and (max-width: 768px){
+
+        #im2{
+            display: none;
+        }
+        #im3{
+            display: none;
+        }
+        #im4{
+            display: none;
+        }
+        #pa2{
+            display: none;
+            
+        }
+        #pa3{
+            display: none;
+        }
+        #pa4{
+            display: none;
+        }
+        #s2{
+            display: none;
+        }
+        #im1{
+            width: 248px;
+height: 257px;
+flex-shrink: 0;
+        }
+        #pa1{
+            width: 248px;
+        }
+        
+    }

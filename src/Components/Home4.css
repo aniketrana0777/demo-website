@@ -1,0 +1,123 @@
+.bordr1{
+background: var(--Primary-600, #000000);
+border-radius: 20px;
+width: 1312px;
+height: 552px;
+flex-shrink: 0;
+margin: 0 auto;
+}
+#anty1{
+    width: 344px;
+height: 546px;
+flex-shrink: 0;
+margin-top: -444px;
+margin-right: 826px;
+border-radius: 51px;
+margin-left: 128px;
+}
+#h122{
+    color: var(--Shade-100, #FFF);
+/* H1 */
+font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 36px;
+margin-left: 399px;
+}
+#h313{
+    color: var(--Shade-100, #FFF);
+
+/* H3 */
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 525px;
+
+}
+#comp
+    {
+        margin-left: 578px;
+        margin-top: 132px;
+    }
+#btn1{
+    border-radius: 8px;
+background: var(--Secondary-500, #EB334A);
+    color: #E1E1E1; 
+    display: flex;
+width: 306px;
+height: 48px;
+padding: 12px 40px;
+justify-content: center;
+gap: 10px;
+flex-shrink: 0; 
+}
+
+
+#h424{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 643px;
+    color: var(--bs-heading-color);
+}
+
+.born{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 455px; 
+}
+
+@media only screen and (max-width: 768px){
+    .bordr1 {
+        width: auto;
+height: 873px;
+flex-shrink: 0;
+    }
+    #anty1{
+        width: 344px;
+height: 548.352px;
+margin: auto;
+    margin-top: -357px;
+    }
+    #h12{
+        color: var(--Shade-100, #FFF);
+
+/* H2 */
+font-family: Montserrat;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 115px;
+margin: auto;
+width: min-content;
+margin-left: 2px;
+    }
+    #h122{
+        color: #f8f9fa;
+        margin-left: 2px;
+    }
+   #h313{
+    color: var(--Shade-100, #FFF);
+
+/* H4 */
+font-family: Montserrat;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+margin-left: 2px;
+    }
+    #comp{
+        margin-top: 74px;
+        margin-left: -3px
+    }
+    .h112{
+        margin: auto;
+    }
+}
